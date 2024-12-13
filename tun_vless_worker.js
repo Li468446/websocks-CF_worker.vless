@@ -4,9 +4,9 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '001a26d8-2356-46d2-a12a-d734035d3730';
+let userID = '';
 
-let proxyIP = 'proxyip.us.fxxk.dedyn.io'; //这里的是反代IP，最终出口IP，已有的这个是可以访问chatgpt等托管在CF的网站的，不需要更换！！！
+let proxyIP = ''; //这里的是反代IP，最终出口IP
 
 
 if (!isValidUUID(userID)) {
